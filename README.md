@@ -1,8 +1,4 @@
-[![Contributors][contributors-shield]][https://github.com/NishikantaRay/Lootmagnet]
-[![Forks][forks-shield]][https://github.com/NishikantaRay/Lootmagnet]
-[![Stargazers][stars-shield]][https://github.com/NishikantaRay/Lootmagnet]
-[![Issues][issues-shield]][https://github.com/NishikantaRay/Lootmagnet]
-[![MIT License][license-shield]][https://github.com/NishikantaRay/Lootmagnet]
+
 
 
 <!-- PROJECT LOGO -->
