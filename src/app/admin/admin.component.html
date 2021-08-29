@@ -1,0 +1,15 @@
+<app-nav></app-nav>
+<div class="container mt-5" *ngFor="let n of data">
+    <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{n.name}}</h5>
+          <p class="card-text">{{n.message}}</p>
+          <button type="button" class="btn btn-warning " (click) = onDecline(n)>Decline</button>&nbsp;&nbsp;
+          <button type="button" class="btn btn-success " (click) = onVerify(n)>Verified</button>
+        </div>
+    </div>
+</div>
+<div class="mx-auto btn-back mt-2" style="width: 300px;">
+  <button type="button" class="btn btn-outline-success" (click) = onSendMessage()>Send Message</button>
+  <div [class]="isSent?'text-warning':'d-none'" class="mx-4">{{isSentMessage}}</div>
+</div>

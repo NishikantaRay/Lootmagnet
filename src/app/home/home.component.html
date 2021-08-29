@@ -1,0 +1,90 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">LOOTMAGNET</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/admin">Admin</a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/weekly-deals">Weekly deals 🔥</a>
+        </li>
+      </ul>
+      <div class="d-flex">
+        <button type="button" class="btn  btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Get your product featured
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+<br><br><br>
+
+
+<div class="conatiner">
+  <div class="row">
+    <div class="col-md-4 col-12">
+    </div>
+    <div class="col-md-4 col-12 mt-5 pt-5" >
+      <div class="card mx-auto " >
+        <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+          <div class="card-body" style="padding: 25px;">
+            <div class="input-group flex-nowrap">
+              <input type="text" formControlName="firstName" class="form-control" placeholder="Phone number"
+                aria-label="Username" aria-describedby="addon-wrapping" (click) = hideMessages()>
+              <button type="submit" class="btn btn-outline-warning" >Subscribe</button>
+            </div>
+          </div>
+        </form>
+        <div [class]="isSubscribe?'text-warning text-center':'d-none'" class="mx-4">{{isSubscribeMessage}}</div>
+      </div>
+      
+    </div>
+    <div class="col-md-4 col-12"></div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Tell us about your product</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="regForm" (ngSubmit)="onSubmitForm()">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input formControlName="mail" type="email" class="form-control" id="exampleFormControlInput1"
+              placeholder="name@example.com" (click)= hideMessages()>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Ad title</label>
+            <input type="text" formControlName="adTitle" class="form-control" id="exampleFormControlInput1"
+              placeholder="Ad Title" (click) = hideMessages()>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Ad desc</label>
+            <textarea formControlName="adDesc" class="form-control" id="exampleFormControlTextarea1"
+              rows="3" placeholder="Ad Description" (click) = hideMessages()></textarea>
+          </div>
+
+          <!-- </div> -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-outline-success">Submit</button>
+          </div>
+        </form>
+        <div [class]="isAd?'text-warning text-center':'d-none'" class="mx-4">{{isAdMessage}}</div>
+      </div>
+    </div>
+  </div>
