@@ -1,0 +1,32 @@
+{
+  "name": "localdeals",
+  "version": "1.0.0",
+  "description": "API service to provide best deals to users",
+  "main": "app.js",
+  "scripts": {
+    "start" : "node app.js",
+    "test": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sunil200228/localdeals.git"
+  },
+  "keywords": [
+    "Deals"
+  ],
+  "author": "Sunil Panda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sunil200228/localdeals/issues"
+  },
+  "homepage": "https://github.com/Sunil200228/localdeals#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "pg": "^8.7.1",
+    "twilio": "^3.67.1",
+    "winston": "^3.3.3"
+  }
+}
