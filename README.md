@@ -1,8 +1,8 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![Contributors][contributors-shield]][https://github.com/NishikantaRay/Lootmagnet]
+[![Forks][forks-shield]][https://github.com/NishikantaRay/Lootmagnet]
+[![Stargazers][stars-shield]][https://github.com/NishikantaRay/Lootmagnet]
+[![Issues][issues-shield]][https://github.com/NishikantaRay/Lootmagnet]
+[![MIT License][license-shield]][https://github.com/NishikantaRay/Lootmagnet]
 
 
 <!-- PROJECT LOGO -->
