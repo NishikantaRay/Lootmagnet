@@ -1,68 +1,33 @@
+# LootMagnet-A savings hub
+ ![App Screenshot](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/638/823/datas/gallery.jpg)
+# Logo
+ ![App Screenshot](https://i.postimg.cc/FRWjRGYc/Annotation-2021-08-29-150637.png)
 
+# Inspiration ⭐
+People face difficulties while searching for deals, many of them also miss the deals or discounts and aren't able to successfully avail. This website is for them, they can get all the things in one place.
 
+# What it does
+Lootmagnet is for those who aren't able to find the best deals on products at the right time. They can receive updates about the discount on various products so they can avail themselves of the best chance at the right time.
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/NishikantaRay/Lootmagnet">
-    <img src="https://i.postimg.cc/FRWjRGYc/Annotation-2021-08-29-150637.png" alt="Logo" width="80" height="80">
-  </a>
+# How we built it ⭐
+We built it using angular, Twilio API, node.js and cockroachDB
 
-  <h3 align="center">Loot Magnets - A Savings Hub</h3>
+# Challenges we ran into 😢
+We faced some problems while deploying the website, which we fixed later.
 
-  <p align="center">
-	Lootmagnet is for those who aren't able to find the best deals on products at the right time. They can receive updates about the discount on various products so they can avail the best chance at the right time.
-    <br />
-    <a href="https://github.com/NishikantaRay/Lootmagnet"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    ·
-    <a href="https://github.com/NishikantaRay/Lootmagnetissues">Report Bug</a>
-    ·
-    <a href="https://github.com/NishikantaRay/Lootmagnet/issues">Request Feature</a>
-  </p>
-</p>
+# Accomplishments that we're proud of ⭐
+Completed a full working website successfully.
 
+# What we learned 🌟
+We used and learned about Twilio API, its working, and its uses
 
+# What's next for LootMagnet 🚀 🚀
+we will add authentication for the admin and also thinking to target the subscribers geographically
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
-
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-
-### Built With
-![Built-with-image]()
-
-
-
+# Built With 💻
+![App Screenshot](https://raw.githubusercontent.com/NishikantaRay/Lootmagnet/main/ReadmeImg/Blue%20and%20Green%20Business%20Presentation.png)
+# Team JCODERS🌟
+![App Screenshot](https://raw.githubusercontent.com/NishikantaRay/Lootmagnet/main/ReadmeImg/Blue%20and%20Green%20Business%20Presentation%20(1).png)
 <!-- GETTING STARTED -->
 ## Getting Started
 
